@@ -27,7 +27,7 @@ Khả năng của bạn:
 
 # Khởi tạo mô hình AI 
 model = genai.GenerativeModel(
-    model_name="gemini-3.0-flash-preview",
+    model_name="gemini-2.0-flash",
     system_instruction=ZHOUZI_PERSONA
 )
 
