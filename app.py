@@ -26,10 +26,8 @@ Khả năng của bạn:
 """
 
 # Khởi tạo mô hình AI 
-model = genai.GenerativeModel(
-    model_name="gemini-1.5-flash",
+ model = "gemini-3.1-pro-preview",
     system_instruction=ZHOUZI_PERSONA
-)
 
 # 4. Tạo trí nhớ cho Chatbot (Session State)
 if "chat_session" not in st.session_state:
